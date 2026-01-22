@@ -1,0 +1,11 @@
+https://huggingface.co/blog/falcon-180b
+https://huggingface.co/blog/llama2
+https://huggingface.co/blog/mixtral
+https://huggingface.co/blog/gemma
+https://ai.meta.com/blog/meta-llama-3-1/
+https://ai.meta.com/blog/code-llama-large-language-model-coding/
+https://stability.ai/news/stable-diffusion-3-medium
+https://huggingface.co/blog/llama31
+https://huggingface.co/blog/codellama
+https://huggingface.co/blog/fine-tune-whisper
+https://stability.ai/news/stable-cascade

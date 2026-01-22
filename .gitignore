@@ -1,0 +1,20 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Backup files
+data/raw/*_backup.jsonl
+
+# OS files
+.DS_Store
+Thumbs.db
