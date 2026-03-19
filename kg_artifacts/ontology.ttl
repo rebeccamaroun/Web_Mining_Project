@@ -1,0 +1,139 @@
+@prefix : <http://example.org/edai/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# ============================================================
+# Ontology metadata
+# ============================================================
+: a owl:Ontology ;
+    rdfs:label "Education & AI Domain Ontology" ;
+    rdfs:comment "Ontology for a knowledge graph about education technology and AI research." .
+
+# ============================================================
+# Classes
+# ============================================================
+:Person a owl:Class ;
+    rdfs:label "Person" ;
+    rdfs:comment "A researcher, author, or individual mentioned in the corpus." .
+
+:Organization a owl:Class ;
+    rdfs:label "Organization" ;
+    rdfs:comment "A university, journal, company, or institution." .
+
+:Location a owl:Class ;
+    rdfs:label "Location" ;
+    rdfs:comment "A geographic location (country, state, city)." .
+
+:Publication a owl:Class ;
+    rdfs:label "Publication" ;
+    rdfs:comment "A research paper, article, or study." .
+
+:ResearchTopic a owl:Class ;
+    rdfs:label "Research Topic" ;
+    rdfs:comment "A topic or theme in education and AI research." .
+
+:Event a owl:Class ;
+    rdfs:label "Event" ;
+    rdfs:comment "A notable event (e.g., COVID-19, conferences)." .
+
+:Technology a owl:Class ;
+    rdfs:label "Technology" ;
+    rdfs:comment "A technology platform, tool, or system used in education." .
+
+# Subclasses
+:University a owl:Class ;
+    rdfs:subClassOf :Organization ;
+    rdfs:label "University" .
+
+:Journal a owl:Class ;
+    rdfs:subClassOf :Organization ;
+    rdfs:label "Academic Journal" .
+
+:Company a owl:Class ;
+    rdfs:subClassOf :Organization ;
+    rdfs:label "Company" .
+
+:Country a owl:Class ;
+    rdfs:subClassOf :Location ;
+    rdfs:label "Country" .
+
+# ============================================================
+# Object Properties (relationships between entities)
+# ============================================================
+:authorOf a owl:ObjectProperty ;
+    rdfs:label "author of" ;
+    rdfs:domain :Person ;
+    rdfs:range :Publication ;
+    rdfs:comment "Links a person to a publication they authored." .
+
+:publishedIn a owl:ObjectProperty ;
+    rdfs:label "published in" ;
+    rdfs:domain :Publication ;
+    rdfs:range :Journal ;
+    rdfs:comment "Links a publication to the journal it was published in." .
+
+:affiliatedWith a owl:ObjectProperty ;
+    rdfs:label "affiliated with" ;
+    rdfs:domain :Person ;
+    rdfs:range :Organization ;
+    rdfs:comment "Links a person to their affiliated organization." .
+
+:locatedIn a owl:ObjectProperty ;
+    rdfs:label "located in" ;
+    rdfs:domain :Organization ;
+    rdfs:range :Location ;
+    rdfs:comment "Links an organization to its location." .
+
+:coAuthorWith a owl:ObjectProperty ;
+    rdfs:label "co-author with" ;
+    rdfs:domain :Person ;
+    rdfs:range :Person ;
+    owl:symmetricProperty true ;
+    rdfs:comment "Links two people who co-authored a publication." .
+
+:relatedTo a owl:ObjectProperty ;
+    rdfs:label "related to" ;
+    rdfs:domain owl:Thing ;
+    rdfs:range owl:Thing ;
+    rdfs:comment "A general relationship between two entities." .
+
+:researches a owl:ObjectProperty ;
+    rdfs:label "researches" ;
+    rdfs:domain :Person ;
+    rdfs:range :ResearchTopic ;
+    rdfs:comment "Links a person to their research topic." .
+
+:usedIn a owl:ObjectProperty ;
+    rdfs:label "used in" ;
+    rdfs:domain :Technology ;
+    rdfs:range :ResearchTopic ;
+    rdfs:comment "Links a technology to the research topic it is used in." .
+
+:mentionedIn a owl:ObjectProperty ;
+    rdfs:label "mentioned in" ;
+    rdfs:domain owl:Thing ;
+    rdfs:range :Publication ;
+    rdfs:comment "Links any entity to a publication where it is mentioned." .
+
+# ============================================================
+# Datatype Properties
+# ============================================================
+:publicationDate a owl:DatatypeProperty ;
+    rdfs:label "publication date" ;
+    rdfs:domain :Publication ;
+    rdfs:range xsd:string ;
+    rdfs:comment "The date a publication was published." .
+
+:entityLabel a owl:DatatypeProperty ;
+    rdfs:label "entity label" ;
+    rdfs:domain owl:Thing ;
+    rdfs:range xsd:string ;
+    rdfs:comment "The NER label of the entity (PERSON, ORG, GPE, etc.)." .
+
+:sourceURL a owl:DatatypeProperty ;
+    rdfs:label "source URL" ;
+    rdfs:domain owl:Thing ;
+    rdfs:range xsd:anyURI ;
+    rdfs:comment "The source URL from which the entity was extracted." .

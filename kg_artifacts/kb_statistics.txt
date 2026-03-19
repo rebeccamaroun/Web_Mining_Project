@@ -1,0 +1,23 @@
+
+============================================================
+  KNOWLEDGE BASE STATISTICS
+============================================================
+  Total triples:          9832
+  Unique entities (nodes): 1878
+  Unique subjects:         2206
+  Unique predicates:       428
+  Unique objects:          3547
+  
+  Entity breakdown:
+    PERSON               1427
+    ORG                  348
+    GPE                  65
+    WORK_OF_ART          30
+    EVENT                7
+    FAC                  1
+
+  Relation triples:        1322
+  Verb-based triples:      825
+  
+  Source documents:         8
+============================================================
