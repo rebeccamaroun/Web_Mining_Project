@@ -1,20 +1,42 @@
-# Virtual environment
-.venv/
-venv/
-env/
-
-# Python cache
+# Python
 __pycache__/
-*.pyc
-.pytest_cache/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
 
 # IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# Backup files
-data/raw/*_backup.jsonl
+# Jupyter
+.ipynb_checkpoints/
 
-# OS files
+# OS
 .DS_Store
 Thumbs.db
+
+# Data (large files — keep samples only)
+data/raw/*.jsonl
+data/processed/*.jsonl
+*.nt
+*.nq
+
+# Model files
+*.bin
+*.pt
+*.pth
+
+# Keep sample data and directory structure
+!data/samples/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
