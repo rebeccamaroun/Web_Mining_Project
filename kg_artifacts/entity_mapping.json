@@ -1,0 +1,641 @@
+[
+  {
+    "local_uri": "http://example.org/edai/LiJ",
+    "local_label": "Li J",
+    "ner_type": "PERSON",
+    "wikidata_qid": "Q6538859",
+    "wikidata_label": "Li Jiang",
+    "wikidata_desc": "Tang dynasty Chinese Chancellor (764–830)",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/ZhangL",
+    "local_label": "Zhang L.",
+    "ner_type": "PERSON",
+    "wikidata_qid": "Q131243776",
+    "wikidata_label": "Zhang L.",
+    "wikidata_desc": "",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/WangY",
+    "local_label": "Wang Y",
+    "ner_type": "PERSON",
+    "wikidata_qid": "Q265168",
+    "wikidata_label": "Wang Yihan",
+    "wikidata_desc": "Chinese badminton player",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/LiuJ",
+    "local_label": "Liu J",
+    "ner_type": "PERSON",
+    "wikidata_qid": "Q10897213",
+    "wikidata_label": "Liu Jizhen",
+    "wikidata_desc": "",
+    "confidence": 0.85
+  },
+  {
+    "local_uri": "http://example.org/edai/Moore",
+    "local_label": "Moore",
+    "ner_type": "PERSON",
+    "wikidata_qid": "Q10588869",
+    "wikidata_label": "Moore",
+    "wikidata_desc": "family name",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/BasuS",
+    "local_label": "Basu S",
+    "ner_type": "PERSON",
+    "wikidata_qid": "Q116216597",
+    "wikidata_label": "Basu Swastha Dharmmesta",
+    "wikidata_desc": "researcher at Gadjah Mada University",
+    "confidence": 0.85
+  },
+  {
+    "local_uri": "http://example.org/edai/JeremyRoschelle",
+    "local_label": "Jeremy Roschelle",
+    "ner_type": "PERSON",
+    "wikidata_qid": "Q102394312",
+    "wikidata_label": "Jeremy Roschelle",
+    "wikidata_desc": "Ph.D. University of California, Berkeley 1991",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/HeidariH",
+    "local_label": "Heidari H",
+    "ner_type": "PERSON",
+    "wikidata_qid": "Q5926262",
+    "wikidata_label": "Heidari Hussainiya (Kashan)",
+    "wikidata_desc": "hussainiya in Kashan, Iranian national heritage site",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Scheiner",
+    "local_label": "Scheiner",
+    "ner_type": "PERSON",
+    "wikidata_qid": "Q21487821",
+    "wikidata_label": "Scheiner",
+    "wikidata_desc": "family name",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/TarenSanders",
+    "local_label": "Taren Sanders",
+    "ner_type": "PERSON",
+    "wikidata_qid": "Q58341609",
+    "wikidata_label": "Taren Sanders",
+    "wikidata_desc": "researcher, ORCID id # 0000-0002-4504-6008",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Bryman",
+    "local_label": "Bryman",
+    "ner_type": "PERSON",
+    "wikidata_qid": "Q22077984",
+    "wikidata_label": "Bryman",
+    "wikidata_desc": "human settlement in United States of America",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Chen",
+    "local_label": "Chen",
+    "ner_type": "PERSON",
+    "wikidata_qid": "Q40713504",
+    "wikidata_label": "Chen",
+    "wikidata_desc": "family name",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/WangL",
+    "local_label": "Wang L.",
+    "ner_type": "PERSON",
+    "wikidata_qid": "Q124607457",
+    "wikidata_label": "Wang L. Cheung",
+    "wikidata_desc": "researcher",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/CortesJe",
+    "local_label": "Cortes JE",
+    "ner_type": "PERSON",
+    "wikidata_qid": "Q94415853",
+    "wikidata_label": "Cortes JE, Kantarjian HM, Brümmendorf TH, et al. Safety and efficacy of bosutinib (SKI-606) in chronic phase Philadelphia chromosome-positive chronic myeloid leukemia patients with resistance or intolerance to imatinib. . 2011;118(17):4567-4576",
+    "wikidata_desc": "",
+    "confidence": 0.85
+  },
+  {
+    "local_uri": "http://example.org/edai/PhilipParker",
+    "local_label": "Philip Parker",
+    "ner_type": "PERSON",
+    "wikidata_qid": "Q112368398",
+    "wikidata_label": "Philip Parker",
+    "wikidata_desc": "",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Ilizarov",
+    "local_label": "Ilizarov",
+    "ner_type": "PERSON",
+    "wikidata_qid": "Q134892273",
+    "wikidata_label": "Ilizarov",
+    "wikidata_desc": "family name (Илизаров)",
+    "confidence": 0.85
+  },
+  {
+    "local_uri": "http://example.org/edai/LiX",
+    "local_label": "Li X",
+    "ner_type": "PERSON",
+    "wikidata_qid": "Q238635",
+    "wikidata_label": "Li Xuerui",
+    "wikidata_desc": "Chinese badminton player",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/CraigAMason",
+    "local_label": "Craig A. Mason",
+    "ner_type": "PERSON",
+    "wikidata_qid": "Q56868213",
+    "wikidata_label": "Craig A. Mason",
+    "wikidata_desc": "American professor of education and applied quantitative methods",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_AmericanEducationalResearchJournal",
+    "local_label": "American Educational Research Journal",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q4743659",
+    "wikidata_label": "American Educational Research Journal",
+    "wikidata_desc": "journal of American Educational Research Association",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_Google",
+    "local_label": "Google",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q95",
+    "wikidata_label": "Google",
+    "wikidata_desc": "American multinational technology company, a subsidiary of Alphabet Inc.",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_GoogleScholar",
+    "local_label": "Google Scholar",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q494817",
+    "wikidata_label": "Google Scholar",
+    "wikidata_desc": "academic search service by Google",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_Codeorg",
+    "local_label": "Code.org",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q16539734",
+    "wikidata_label": "code.org",
+    "wikidata_desc": "organization",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_Facebook",
+    "local_label": "Facebook",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q355",
+    "wikidata_label": "Facebook",
+    "wikidata_desc": "American online social media and social networking service",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_ReviewOfEducationalResearch",
+    "local_label": "Review of Educational Research",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q7318370",
+    "wikidata_label": "Review of Educational Research",
+    "wikidata_desc": "journal",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_PublishersNote",
+    "local_label": "Publisher’s Note",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q105422784",
+    "wikidata_label": "Publisher’s Note",
+    "wikidata_desc": "scientific article published on 14 February 2017",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_Mit",
+    "local_label": "MIT",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q334661",
+    "wikidata_label": "MIT License",
+    "wikidata_desc": "permissive free software license",
+    "confidence": 0.85
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_TheUniversityOfPhoenix",
+    "local_label": "the University of Phoenix",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q122652170",
+    "wikidata_label": "The University of Phoenix in America:The Innovative Model of Adult Higher Education Institutions",
+    "wikidata_desc": "scholarly article in Studies in Foreign Education, no. 7, 2009",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_MitMediaLab",
+    "local_label": "MIT Media Lab",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q1373549",
+    "wikidata_label": "MIT Media Lab",
+    "wikidata_desc": "interdisciplinary research laboratory at the Massachusetts Institute of Technology",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_Ibm",
+    "local_label": "IBM",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q37156",
+    "wikidata_label": "IBM",
+    "wikidata_desc": "American multinational technology corporation",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_Zoom",
+    "local_label": "Zoom",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q94979732",
+    "wikidata_label": "Zoom",
+    "wikidata_desc": "video-conferencing software",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_MansouraUniversity",
+    "local_label": "Mansoura University",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q4116236",
+    "wikidata_label": "Mansoura University",
+    "wikidata_desc": "public university in Egypt",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_Netflix",
+    "local_label": "Netflix",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q907311",
+    "wikidata_label": "Netflix",
+    "wikidata_desc": "American subscription video on-demand over-the-top streaming service",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_Apple",
+    "local_label": "Apple",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q312",
+    "wikidata_label": "Apple Inc.",
+    "wikidata_desc": "American multinational technology company based in Cupertino, California",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_Amazon",
+    "local_label": "Amazon",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q3884",
+    "wikidata_label": "Amazon",
+    "wikidata_desc": "American multinational technology company",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_MichiganStateUniversity",
+    "local_label": "Michigan State University",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q270222",
+    "wikidata_label": "Michigan State University",
+    "wikidata_desc": "public research university in East Lansing, Michigan, United States",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_Skype",
+    "local_label": "Skype",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q40984",
+    "wikidata_label": "Skype",
+    "wikidata_desc": "former telecommunications software service",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_Compuserve",
+    "local_label": "CompuServe",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q1122074",
+    "wikidata_label": "CompuServe",
+    "wikidata_desc": "American online service provider",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_Cham",
+    "local_label": "Cham",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q257859",
+    "wikidata_label": "Cham",
+    "wikidata_desc": "municipality in Oberpfalz, Germany",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_SpringerNature",
+    "local_label": "Springer Nature",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q21096327",
+    "wikidata_label": "Springer Nature",
+    "wikidata_desc": "academic publisher",
+    "confidence": 0.85
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_Youtube",
+    "local_label": "YouTube",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q866",
+    "wikidata_label": "YouTube",
+    "wikidata_desc": "American video-sharing platform owned by Alphabet Inc.",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_NewYorkUniversityPress",
+    "local_label": "New York University Press",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q7014807",
+    "wikidata_label": "New York University Press",
+    "wikidata_desc": "university press that is part of New York University",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_Stanford",
+    "local_label": "Stanford",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q173813",
+    "wikidata_label": "Stanford",
+    "wikidata_desc": "census-designated place in Santa Clara County, California, United States",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_Nature",
+    "local_label": "Nature",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q180445",
+    "wikidata_label": "Nature",
+    "wikidata_desc": "British scientific journal since 1869",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_Ieee",
+    "local_label": "IEEE",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q127793",
+    "wikidata_label": "IEEE Transactions on Information Theory",
+    "wikidata_desc": "journal",
+    "confidence": 0.85
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_Duolingo",
+    "local_label": "Duolingo",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q2918660",
+    "wikidata_label": "Duolingo",
+    "wikidata_desc": "American online platform for language learning",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_OxfordUniversityPress",
+    "local_label": "Oxford University Press",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q217595",
+    "wikidata_label": "Oxford University Press",
+    "wikidata_desc": "publishing arm of the University of Oxford",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_Uk",
+    "local_label": "UK",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q8798",
+    "wikidata_label": "Ukrainian",
+    "wikidata_desc": "East Slavic language",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_Iran",
+    "local_label": "Iran",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q794",
+    "wikidata_label": "Iran",
+    "wikidata_desc": "country in Western Asia",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_Usa",
+    "local_label": "USA",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q248713",
+    "wikidata_label": "USA Network",
+    "wikidata_desc": "American cable television channel",
+    "confidence": 0.85
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_Eu",
+    "local_label": "EU",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q458",
+    "wikidata_label": "European Union",
+    "wikidata_desc": "political and economic union of 27 European states",
+    "confidence": 0.85
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_Tehran",
+    "local_label": "Tehran",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q3616",
+    "wikidata_label": "Tehran",
+    "wikidata_desc": "capital city of Iran",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_Esfahan",
+    "local_label": "Esfahan",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q21475480",
+    "wikidata_label": "Esfahani",
+    "wikidata_desc": "family name",
+    "confidence": 0.7
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_Ethiopia",
+    "local_label": "Ethiopia",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q115",
+    "wikidata_label": "Ethiopia",
+    "wikidata_desc": "country in the Horn of Africa",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_PaloAlto",
+    "local_label": "Palo Alto",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q47265",
+    "wikidata_label": "Palo Alto",
+    "wikidata_desc": "city in Santa Clara County, California, United States",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_Nevada",
+    "local_label": "Nevada",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q1227",
+    "wikidata_label": "Nevada",
+    "wikidata_desc": "state of the United States of America",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_NewOrleans",
+    "local_label": "New Orleans",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q34404",
+    "wikidata_label": "New Orleans",
+    "wikidata_desc": "largest city of the state of Louisiana, United States",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_Lousiana",
+    "local_label": "Lousiana",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q117068168",
+    "wikidata_label": "Lousiana Oil Refining",
+    "wikidata_desc": "business",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_Ahvaz",
+    "local_label": "Ahvaz",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q170366",
+    "wikidata_label": "Ahvaz",
+    "wikidata_desc": "city in Khuzestan Province, Iran",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_Louisiana",
+    "local_label": "Louisiana",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q1588",
+    "wikidata_label": "Louisiana",
+    "wikidata_desc": "state of the United States of America",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_China",
+    "local_label": "China",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q29520",
+    "wikidata_label": "China",
+    "wikidata_desc": "cultural region, ancient civilization, and nation in East Asia; mostly refers to the People's Republic of China in political situation and rarely refers to the Republic of China",
+    "confidence": 0.7
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_Tamilnadu",
+    "local_label": "Tamilnadu",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q26294639",
+    "wikidata_label": "Tamilnaduibacter",
+    "wikidata_desc": "genus of Gammaproteobacteria",
+    "confidence": 0.85
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_Germany",
+    "local_label": "Germany",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q183",
+    "wikidata_label": "Germany",
+    "wikidata_desc": "country in Central Europe",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_Texas",
+    "local_label": "Texas",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q1439",
+    "wikidata_label": "Texas",
+    "wikidata_desc": "state of the United States of America",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_England",
+    "local_label": "England",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q21",
+    "wikidata_label": "England",
+    "wikidata_desc": "country in north-west Europe, part of the United Kingdom",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_Ca",
+    "local_label": "CA",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q99",
+    "wikidata_label": "California",
+    "wikidata_desc": "state of the United States of America",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_NewYork",
+    "local_label": "New York",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q1384",
+    "wikidata_label": "New York",
+    "wikidata_desc": "state of the United States of America",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_Kenya",
+    "local_label": "Kenya",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q114",
+    "wikidata_label": "Kenya",
+    "wikidata_desc": "country in Eastern Africa",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_India",
+    "local_label": "India",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q668",
+    "wikidata_label": "India",
+    "wikidata_desc": "country in South Asia",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_Colombia",
+    "local_label": "Colombia",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q739",
+    "wikidata_label": "Colombia",
+    "wikidata_desc": "country in South America",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_Uganda",
+    "local_label": "Uganda",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q1036",
+    "wikidata_label": "Uganda",
+    "wikidata_desc": "country in East Africa",
+    "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_Iraq",
+    "local_label": "Iraq",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q796",
+    "wikidata_label": "Iraq",
+    "wikidata_desc": "sovereign state in Western Asia",
+    "confidence": 1.0
+  }
+]

@@ -1,0 +1,14 @@
+@prefix edai: <http://example.org/edai/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+edai:affiliatedWith owl:equivalentProperty wdt:P108 .
+
+edai:authorOf owl:equivalentProperty wdt:P50 .
+
+edai:coAuthorWith owl:equivalentProperty wdt:P50 .
+
+edai:locatedIn owl:equivalentProperty wdt:P131 .
+
+edai:publishedIn owl:equivalentProperty wdt:P1433 .
+

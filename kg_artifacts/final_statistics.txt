@@ -1,0 +1,19 @@
+
+============================================================
+  FINAL EXPANSION SUMMARY
+============================================================
+  Previous KG size:       12257
+  Round 1 (all props):    +34655
+  Round 2 (domain):       +14097
+  Round 3 (discovered):   +27353
+  ─────────────────────────────────
+  Total NEW triples:      37472
+  Final KG size:          49729 triples
+  
+  Target range:           50,000 – 200,000
+  Status:                 ⚠️  BELOW
+  
+  Output files:
+    Turtle: kg_artifacts/knowledge_graph_final.ttl
+    N-Triples: kg_artifacts/knowledge_graph_final.nt
+============================================================

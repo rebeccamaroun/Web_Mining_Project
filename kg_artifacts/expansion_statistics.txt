@@ -1,0 +1,19 @@
+
+============================================================
+  EXPANSION SUMMARY
+============================================================
+  Base KG triples:        9974
+  1-hop expansion:        +1170
+  2-hop expansion:        +64
+  Topic expansion:        +118
+  Description expansion:  +338
+  Predicate alignments:   +5
+  ─────────────────────────────────
+  Total NEW triples:      2283
+  Final KG size:          12257 triples
+  
+  Target range:           50,000 – 200,000
+  Status:                 ⚠️  BELOW target
+  
+  Output file:            kg_artifacts/knowledge_graph_expanded.ttl
+============================================================

@@ -1,0 +1,218 @@
+@prefix edai: <http://example.org/edai/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+edai:BasuS edai:alignmentConfidence "0.85"^^xsd:float ;
+    owl:sameAs wd:Q116216597 .
+
+edai:Bryman edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q22077984 .
+
+edai:Chen edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q40713504 .
+
+edai:CortesJe edai:alignmentConfidence "0.85"^^xsd:float ;
+    owl:sameAs wd:Q94415853 .
+
+edai:CraigAMason edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q56868213 .
+
+edai:HeidariH edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q5926262 .
+
+edai:Ilizarov edai:alignmentConfidence "0.85"^^xsd:float ;
+    owl:sameAs wd:Q134892273 .
+
+edai:JeremyRoschelle edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q102394312 .
+
+edai:LiJ edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q6538859 .
+
+edai:LiX edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q238635 .
+
+edai:LiuJ edai:alignmentConfidence "0.85"^^xsd:float ;
+    owl:sameAs wd:Q10897213 .
+
+edai:Loc_Ahvaz edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q170366 .
+
+edai:Loc_Ca edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q99 .
+
+edai:Loc_China edai:alignmentConfidence "0.7"^^xsd:float ;
+    owl:sameAs wd:Q29520 .
+
+edai:Loc_Colombia edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q739 .
+
+edai:Loc_England edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q21 .
+
+edai:Loc_Esfahan edai:alignmentConfidence "0.7"^^xsd:float ;
+    owl:sameAs wd:Q21475480 .
+
+edai:Loc_Ethiopia edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q115 .
+
+edai:Loc_Eu edai:alignmentConfidence "0.85"^^xsd:float ;
+    owl:sameAs wd:Q458 .
+
+edai:Loc_Germany edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q183 .
+
+edai:Loc_India edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q668 .
+
+edai:Loc_Iran edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q794 .
+
+edai:Loc_Iraq edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q796 .
+
+edai:Loc_Kenya edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q114 .
+
+edai:Loc_Louisiana edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q1588 .
+
+edai:Loc_Lousiana edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q117068168 .
+
+edai:Loc_Nevada edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q1227 .
+
+edai:Loc_NewOrleans edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q34404 .
+
+edai:Loc_NewYork edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q1384 .
+
+edai:Loc_PaloAlto edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q47265 .
+
+edai:Loc_Tamilnadu edai:alignmentConfidence "0.85"^^xsd:float ;
+    owl:sameAs wd:Q26294639 .
+
+edai:Loc_Tehran edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q3616 .
+
+edai:Loc_Texas edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q1439 .
+
+edai:Loc_Uganda edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q1036 .
+
+edai:Loc_Uk edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q8798 .
+
+edai:Loc_Usa edai:alignmentConfidence "0.85"^^xsd:float ;
+    owl:sameAs wd:Q248713 .
+
+edai:Moore edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q10588869 .
+
+edai:Org_Amazon edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q3884 .
+
+edai:Org_AmericanEducationalResearchJournal edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q4743659 .
+
+edai:Org_Apple edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q312 .
+
+edai:Org_Cham edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q257859 .
+
+edai:Org_Codeorg edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q16539734 .
+
+edai:Org_Compuserve edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q1122074 .
+
+edai:Org_Duolingo edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q2918660 .
+
+edai:Org_Facebook edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q355 .
+
+edai:Org_Google edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q95 .
+
+edai:Org_GoogleScholar edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q494817 .
+
+edai:Org_Ibm edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q37156 .
+
+edai:Org_Ieee edai:alignmentConfidence "0.85"^^xsd:float ;
+    owl:sameAs wd:Q127793 .
+
+edai:Org_MansouraUniversity edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q4116236 .
+
+edai:Org_MichiganStateUniversity edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q270222 .
+
+edai:Org_Mit edai:alignmentConfidence "0.85"^^xsd:float ;
+    owl:sameAs wd:Q334661 .
+
+edai:Org_MitMediaLab edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q1373549 .
+
+edai:Org_Nature edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q180445 .
+
+edai:Org_Netflix edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q907311 .
+
+edai:Org_NewYorkUniversityPress edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q7014807 .
+
+edai:Org_OxfordUniversityPress edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q217595 .
+
+edai:Org_PublishersNote edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q105422784 .
+
+edai:Org_ReviewOfEducationalResearch edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q7318370 .
+
+edai:Org_Skype edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q40984 .
+
+edai:Org_SpringerNature edai:alignmentConfidence "0.85"^^xsd:float ;
+    owl:sameAs wd:Q21096327 .
+
+edai:Org_Stanford edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q173813 .
+
+edai:Org_TheUniversityOfPhoenix edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q122652170 .
+
+edai:Org_Youtube edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q866 .
+
+edai:Org_Zoom edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q94979732 .
+
+edai:PhilipParker edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q112368398 .
+
+edai:Scheiner edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q21487821 .
+
+edai:TarenSanders edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q58341609 .
+
+edai:WangL edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q124607457 .
+
+edai:WangY edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q265168 .
+
+edai:ZhangL edai:alignmentConfidence "1.0"^^xsd:float ;
+    owl:sameAs wd:Q131243776 .
+
