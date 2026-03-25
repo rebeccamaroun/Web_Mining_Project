@@ -1,0 +1,58 @@
+[
+  {
+    "question": "How many persons are in the knowledge graph?",
+    "baseline": "I do not have access to external sources or the ability to access or process information about the Knowledge Graph. Therefore, I cannot answer this question.",
+    "rag_query": "PREFIX edai: <http://example.org/edai/>\nSELECT (COUNT(?p) AS ?count) WHERE {\n  ?p a edai:Person .\n}",
+    "rag_rows": 1,
+    "rag_repaired": false,
+    "rag_error": null
+  },
+  {
+    "question": "List all universities in the knowledge graph.",
+    "baseline": "I am unable to access external knowledge sources or access the context of your question, so I am unable to provide a list of universities in the knowledge graph.",
+    "rag_query": "PREFIX edai: <http://example.org/edai/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT ?uni ?name WHERE {\n  ?uni a edai:University .\n  ?uni rdfs:label ?name .\n}",
+    "rag_rows": 40,
+    "rag_repaired": false,
+    "rag_error": null
+  },
+  {
+    "question": "Who are the co-authors of Sarah McGrew?",
+    "baseline": "I am unable to access real-time information or access external sources, therefore I am unable to provide the co-authors of Sarah McGrew.",
+    "rag_query": "PREFIX edai: <http://example.org/edai/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT ?coauthor ?name WHERE {\n  ?person edai:coAuthorWith ?coauthor .\n  ?coauthor rdfs:label ?name .\n  ?person rdfs:label \"Sarah McGrew\" .\n}",
+    "rag_rows": 0,
+    "rag_repaired": false,
+    "rag_error": null
+  },
+  {
+    "question": "Which organizations are located in the United States?",
+    "baseline": "I do not have access to real-time information, therefore I cannot provide a list of organizations located in the United States.",
+    "rag_query": "PREFIX edai: <http://example.org/edai/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT ?org ?orgName WHERE {\n  ?person edai:locatedIn ?loc .\n  ?loc rdfs:label \"United States\" .\n}",
+    "rag_rows": 0,
+    "rag_repaired": false,
+    "rag_error": null
+  },
+  {
+    "question": "What is Google's country of origin?",
+    "baseline": "Google is headquartered in Mountain View, California, United States. The company was founded by Sergey Brin and Larry Page in 2006.",
+    "rag_query": "SELECT ?country WHERE {\n  ?subject wdt:P31 wd:Q110 .\n  ?country wdt:P279 ?countryLabel .\n  SERVICE wikibase:label { bd:label ?countryLabel . }\n}",
+    "rag_rows": 0,
+    "rag_repaired": true,
+    "rag_error": "Expected SelectQuery, found 'SERVICE'  (at char 91), (line:4, col:3)"
+  },
+  {
+    "question": "How many co-author relationships exist in the graph?",
+    "baseline": "I am unable to access or provide information about the graph, and cannot answer this question.",
+    "rag_query": "PREFIX edai: <http://example.org/edai/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT (COUNT(?s) AS ?count) WHERE {\n  ?s edai:coAuthorWith ?o .\n}",
+    "rag_rows": 1,
+    "rag_repaired": false,
+    "rag_error": null
+  },
+  {
+    "question": "List 5 persons and their affiliations.",
+    "baseline": "Sure. Here are 5 persons and their affiliations:\n\n1. **Elon Musk:** CEO of Tesla and SpaceX.\n2. **Mark Zuckerberg:** CEO of Meta (formerly Facebook).\n3. **Joe Rogan:** Podcast host and comedian.\n4. **Oprah Winfrey:** Television host, producer, and philanthropist.\n5. **Taylor Swift:** Singer and songwriter.",
+    "rag_query": "PREFIX edai: <http://example.org/edai/>\n\nSELECT ?person ?affiliation\nWHERE {\n  ?person edai:sourceURL ?sourceUrl .\n  ?person edai:entityLabel ?name .\n  ?person edai:coAuthorWith ?authors .\n  ?person edai:relatedTo ?relatedTo .\n  ?person edai:alignmentConfidence ?confidence .\n  ?person edai:affiliatedWith ?affiliatedWith .\n  ?person edai:Is ?role .\n  ?person edai:Are ?role .\n  ?person edai:Have ?item .\n  ?person edai:authorOf ?author .\n  ?person edai:Found ?item .\n  ?person edai:Had ?item .\n  ?person edai:Be ?resource .\n  ?person edai:Provide ?resource .\n  ?person edai:locatedIn ?location .\n  ?person edai:Regulates ?regulation .\n  ?person edai:Used ?item .\n  ?person edai:Inhibits ?item .\n  ?person edai:Were ?item .\n  ?person edai:Reported ?item .\n}\nLIMIT 5",
+    "rag_rows": 0,
+    "rag_repaired": true,
+    "rag_error": null
+  }
+]
