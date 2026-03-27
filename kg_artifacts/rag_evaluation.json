@@ -1,58 +1,58 @@
 [
   {
     "question": "How many persons are in the knowledge graph?",
-    "baseline": "I do not have access to external sources or the ability to access or process information about the Knowledge Graph. Therefore, I cannot answer this question.",
-    "rag_query": "PREFIX edai: <http://example.org/edai/>\nSELECT (COUNT(?p) AS ?count) WHERE {\n  ?p a edai:Person .\n}",
-    "rag_rows": 1,
-    "rag_repaired": false,
-    "rag_error": null
+    "baseline": "I don't have a specific number of persons in my knowledge graph. My training data includes a vast amount of text from various sources, including books, articles, and websites. However, the information about individuals in my knowledge graph is limited to what has been explicitly documented or mentioned in these sources.\n\nIt's difficult to estimate the exact number of persons in my knowledge graph, as it depends on how one defines a \"person.\" I don't have personal relationships or interactions wi",
+    "rag_query": "SELECT COUNT ?person\nWHERE {\n  ?person edai:entityLabel ?label .\n}",
+    "rag_rows": 0,
+    "rag_repaired": true,
+    "rag_error": "Expected SelectQuery, found 'COUNT'  (at char 7), (line:1, col:8)"
   },
   {
     "question": "List all universities in the knowledge graph.",
-    "baseline": "I am unable to access external knowledge sources or access the context of your question, so I am unable to provide a list of universities in the knowledge graph.",
-    "rag_query": "PREFIX edai: <http://example.org/edai/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT ?uni ?name WHERE {\n  ?uni a edai:University .\n  ?uni rdfs:label ?name .\n}",
+    "baseline": "I don't have direct access to a comprehensive list of all universities worldwide. However, I can provide some notable ones based on available data.\n\nHere's a list of well-known universities across various regions:\n\n**USA:**\n\n1. Harvard University\n2. Stanford University\n3. Massachusetts Institute of Technology (MIT)\n4. California Institute of Technology (Caltech)\n5. Yale University\n6. Princeton University\n7. Columbia University\n8. University of California, Berkeley\n9. University of Chicago\n10. Jo",
+    "rag_query": "PREFIX edai: <http://example.org/edai/>\nSELECT ?uni ?name WHERE {\n  ?uni a edai:University .\n  ?uni rdfs:label ?name .\n}",
     "rag_rows": 40,
     "rag_repaired": false,
     "rag_error": null
   },
   {
     "question": "Who are the co-authors of Sarah McGrew?",
-    "baseline": "I am unable to access real-time information or access external sources, therefore I am unable to provide the co-authors of Sarah McGrew.",
-    "rag_query": "PREFIX edai: <http://example.org/edai/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT ?coauthor ?name WHERE {\n  ?person edai:coAuthorWith ?coauthor .\n  ?coauthor rdfs:label ?name .\n  ?person rdfs:label \"Sarah McGrew\" .\n}",
-    "rag_rows": 0,
-    "rag_repaired": false,
+    "baseline": "I couldn't find any information on a person named Sarah McGrew who is a co-author. Could you please provide more context or clarify which Sarah McGrew you are referring to?\n\nIf you're looking for information on a specific book or publication, could you please provide the title and I'll try to help you identify the co-authors?",
+    "rag_query": "PREFIX edai: <http://example.org/edai/>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nSELECT ?person\nWHERE {\n  ?person a edai:Person .\n  ?person edai:coAuthorWith ?coAuthor .\n  ?coAuthor a edai:Person .\n}",
+    "rag_rows": 1043,
+    "rag_repaired": true,
     "rag_error": null
   },
   {
     "question": "Which organizations are located in the United States?",
-    "baseline": "I do not have access to real-time information, therefore I cannot provide a list of organizations located in the United States.",
-    "rag_query": "PREFIX edai: <http://example.org/edai/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT ?org ?orgName WHERE {\n  ?person edai:locatedIn ?loc .\n  ?loc rdfs:label \"United States\" .\n}",
+    "baseline": "There are countless organizations located in the United States, and it's difficult to provide an exhaustive list. However, I can give you some examples of well-known organizations across various categories:\n\n**Government Organizations:**\n\n1. Federal Reserve System\n2. U.S. Department of Defense\n3. National Aeronautics and Space Administration (NASA)\n4. National Institutes of Health (NIH)\n5. Environmental Protection Agency (EPA)\n\n**Non-Profit Organizations:**\n\n1. American Red Cross\n2. St. Jude Chi",
+    "rag_query": "[Error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)]",
     "rag_rows": 0,
-    "rag_repaired": false,
-    "rag_error": null
+    "rag_repaired": true,
+    "rag_error": "Expected {SelectQuery | ConstructQuery | DescribeQuery | AskQuery}, found '['  (at char 0), (line:1, col:1)"
   },
   {
     "question": "What is Google's country of origin?",
-    "baseline": "Google is headquartered in Mountain View, California, United States. The company was founded by Sergey Brin and Larry Page in 2006.",
-    "rag_query": "SELECT ?country WHERE {\n  ?subject wdt:P31 wd:Q110 .\n  ?country wdt:P279 ?countryLabel .\n  SERVICE wikibase:label { bd:label ?countryLabel . }\n}",
+    "baseline": "Google was founded in the United States. Specifically, its founders, Larry Page and Sergey Brin, were PhD students at Stanford University in California when they started working on their search engine project in 1996.\n\nHowever, it's worth noting that Google's early headquarters were located in a garage in Menlo Park, California, which is part of the Silicon Valley region. Google has since expanded its operations to many countries around the world, but its roots and origins are firmly rooted in t",
+    "rag_query": "SELECT ?country\nWHERE {\n  ?entity edai:entityLabel \"Google\" .\n  ?entity rdfs:label ?country .\n}",
     "rag_rows": 0,
     "rag_repaired": true,
-    "rag_error": "Expected SelectQuery, found 'SERVICE'  (at char 91), (line:4, col:3)"
+    "rag_error": null
   },
   {
     "question": "How many co-author relationships exist in the graph?",
-    "baseline": "I am unable to access or provide information about the graph, and cannot answer this question.",
-    "rag_query": "PREFIX edai: <http://example.org/edai/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT (COUNT(?s) AS ?count) WHERE {\n  ?s edai:coAuthorWith ?o .\n}",
+    "baseline": "I can't help with this. Is there something else I can assist you with?",
+    "rag_query": "PREFIX edai: <http://example.org/edai/>\nSELECT (COUNT(?s) AS ?count) WHERE {\n  ?s edai:coAuthorWith ?o .\n}",
     "rag_rows": 1,
     "rag_repaired": false,
     "rag_error": null
   },
   {
     "question": "List 5 persons and their affiliations.",
-    "baseline": "Sure. Here are 5 persons and their affiliations:\n\n1. **Elon Musk:** CEO of Tesla and SpaceX.\n2. **Mark Zuckerberg:** CEO of Meta (formerly Facebook).\n3. **Joe Rogan:** Podcast host and comedian.\n4. **Oprah Winfrey:** Television host, producer, and philanthropist.\n5. **Taylor Swift:** Singer and songwriter.",
-    "rag_query": "PREFIX edai: <http://example.org/edai/>\n\nSELECT ?person ?affiliation\nWHERE {\n  ?person edai:sourceURL ?sourceUrl .\n  ?person edai:entityLabel ?name .\n  ?person edai:coAuthorWith ?authors .\n  ?person edai:relatedTo ?relatedTo .\n  ?person edai:alignmentConfidence ?confidence .\n  ?person edai:affiliatedWith ?affiliatedWith .\n  ?person edai:Is ?role .\n  ?person edai:Are ?role .\n  ?person edai:Have ?item .\n  ?person edai:authorOf ?author .\n  ?person edai:Found ?item .\n  ?person edai:Had ?item .\n  ?person edai:Be ?resource .\n  ?person edai:Provide ?resource .\n  ?person edai:locatedIn ?location .\n  ?person edai:Regulates ?regulation .\n  ?person edai:Used ?item .\n  ?person edai:Inhibits ?item .\n  ?person edai:Were ?item .\n  ?person edai:Reported ?item .\n}\nLIMIT 5",
+    "baseline": "I'd be happy to provide some examples of 5 persons and their affiliations. Please note that I'll be providing general information, and the affiliations may not be exhaustive or up-to-date.\n\n1. **Albert Einstein** - Physicist (Theoretical Physicist at Princeton University)\n2. **Malala Yousafzai** - Education Activist, Nobel Peace Prize Laureate (Student Activist in Swat Valley, Pakistan; Nobel Peace Prize winner)\n3. **Elon Musk** - Business Magnate, Entrepreneur (Founder and CEO of SpaceX and Tes",
+    "rag_query": "SELECT ?p ?person ?affiliation \nWHERE {\n  ?person edai:affiliatedWith ?affiliation .\n  ?affiliation rdfs:label ?affiliationLabel .\n  ?person a ?p .\n  FILTER (CONTAINS(?affiliationLabel, \"University\") OR CONTAINS(?affiliationLabel, \"Journal\") OR CONTAINS(?affiliationLabel, \"Company\"))\n}\nLIMIT 5",
     "rag_rows": 0,
     "rag_repaired": true,
-    "rag_error": null
+    "rag_error": "Expected SelectQuery, found 'FILTER'  (at char 150), (line:6, col:3)"
   }
 ]

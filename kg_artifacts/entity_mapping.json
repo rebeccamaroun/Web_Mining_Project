@@ -1,59 +1,5 @@
 [
   {
-    "local_uri": "http://example.org/edai/LiJ",
-    "local_label": "Li J",
-    "ner_type": "PERSON",
-    "wikidata_qid": "Q6538859",
-    "wikidata_label": "Li Jiang",
-    "wikidata_desc": "Tang dynasty Chinese Chancellor (764–830)",
-    "confidence": 1.0
-  },
-  {
-    "local_uri": "http://example.org/edai/ZhangL",
-    "local_label": "Zhang L.",
-    "ner_type": "PERSON",
-    "wikidata_qid": "Q131243776",
-    "wikidata_label": "Zhang L.",
-    "wikidata_desc": "",
-    "confidence": 1.0
-  },
-  {
-    "local_uri": "http://example.org/edai/WangY",
-    "local_label": "Wang Y",
-    "ner_type": "PERSON",
-    "wikidata_qid": "Q265168",
-    "wikidata_label": "Wang Yihan",
-    "wikidata_desc": "Chinese badminton player",
-    "confidence": 1.0
-  },
-  {
-    "local_uri": "http://example.org/edai/LiuJ",
-    "local_label": "Liu J",
-    "ner_type": "PERSON",
-    "wikidata_qid": "Q10897213",
-    "wikidata_label": "Liu Jizhen",
-    "wikidata_desc": "",
-    "confidence": 0.85
-  },
-  {
-    "local_uri": "http://example.org/edai/Moore",
-    "local_label": "Moore",
-    "ner_type": "PERSON",
-    "wikidata_qid": "Q10588869",
-    "wikidata_label": "Moore",
-    "wikidata_desc": "family name",
-    "confidence": 1.0
-  },
-  {
-    "local_uri": "http://example.org/edai/BasuS",
-    "local_label": "Basu S",
-    "ner_type": "PERSON",
-    "wikidata_qid": "Q116216597",
-    "wikidata_label": "Basu Swastha Dharmmesta",
-    "wikidata_desc": "researcher at Gadjah Mada University",
-    "confidence": 0.85
-  },
-  {
     "local_uri": "http://example.org/edai/JeremyRoschelle",
     "local_label": "Jeremy Roschelle",
     "ner_type": "PERSON",
@@ -63,93 +9,12 @@
     "confidence": 1.0
   },
   {
-    "local_uri": "http://example.org/edai/HeidariH",
-    "local_label": "Heidari H",
-    "ner_type": "PERSON",
-    "wikidata_qid": "Q5926262",
-    "wikidata_label": "Heidari Hussainiya (Kashan)",
-    "wikidata_desc": "hussainiya in Kashan, Iranian national heritage site",
-    "confidence": 1.0
-  },
-  {
     "local_uri": "http://example.org/edai/Scheiner",
     "local_label": "Scheiner",
     "ner_type": "PERSON",
     "wikidata_qid": "Q21487821",
     "wikidata_label": "Scheiner",
     "wikidata_desc": "family name",
-    "confidence": 1.0
-  },
-  {
-    "local_uri": "http://example.org/edai/TarenSanders",
-    "local_label": "Taren Sanders",
-    "ner_type": "PERSON",
-    "wikidata_qid": "Q58341609",
-    "wikidata_label": "Taren Sanders",
-    "wikidata_desc": "researcher, ORCID id # 0000-0002-4504-6008",
-    "confidence": 1.0
-  },
-  {
-    "local_uri": "http://example.org/edai/Bryman",
-    "local_label": "Bryman",
-    "ner_type": "PERSON",
-    "wikidata_qid": "Q22077984",
-    "wikidata_label": "Bryman",
-    "wikidata_desc": "human settlement in United States of America",
-    "confidence": 1.0
-  },
-  {
-    "local_uri": "http://example.org/edai/Chen",
-    "local_label": "Chen",
-    "ner_type": "PERSON",
-    "wikidata_qid": "Q40713504",
-    "wikidata_label": "Chen",
-    "wikidata_desc": "family name",
-    "confidence": 1.0
-  },
-  {
-    "local_uri": "http://example.org/edai/WangL",
-    "local_label": "Wang L.",
-    "ner_type": "PERSON",
-    "wikidata_qid": "Q124607457",
-    "wikidata_label": "Wang L. Cheung",
-    "wikidata_desc": "researcher",
-    "confidence": 1.0
-  },
-  {
-    "local_uri": "http://example.org/edai/CortesJe",
-    "local_label": "Cortes JE",
-    "ner_type": "PERSON",
-    "wikidata_qid": "Q94415853",
-    "wikidata_label": "Cortes JE, Kantarjian HM, Brümmendorf TH, et al. Safety and efficacy of bosutinib (SKI-606) in chronic phase Philadelphia chromosome-positive chronic myeloid leukemia patients with resistance or intolerance to imatinib. . 2011;118(17):4567-4576",
-    "wikidata_desc": "",
-    "confidence": 0.85
-  },
-  {
-    "local_uri": "http://example.org/edai/PhilipParker",
-    "local_label": "Philip Parker",
-    "ner_type": "PERSON",
-    "wikidata_qid": "Q112368398",
-    "wikidata_label": "Philip Parker",
-    "wikidata_desc": "",
-    "confidence": 1.0
-  },
-  {
-    "local_uri": "http://example.org/edai/Ilizarov",
-    "local_label": "Ilizarov",
-    "ner_type": "PERSON",
-    "wikidata_qid": "Q134892273",
-    "wikidata_label": "Ilizarov",
-    "wikidata_desc": "family name (Илизаров)",
-    "confidence": 0.85
-  },
-  {
-    "local_uri": "http://example.org/edai/LiX",
-    "local_label": "Li X",
-    "ner_type": "PERSON",
-    "wikidata_qid": "Q238635",
-    "wikidata_label": "Li Xuerui",
-    "wikidata_desc": "Chinese badminton player",
     "confidence": 1.0
   },
   {
@@ -213,33 +78,6 @@
     "wikidata_qid": "Q7318370",
     "wikidata_label": "Review of Educational Research",
     "wikidata_desc": "journal",
-    "confidence": 1.0
-  },
-  {
-    "local_uri": "http://example.org/edai/Org_PublishersNote",
-    "local_label": "Publisher’s Note",
-    "ner_type": "ORG",
-    "wikidata_qid": "Q105422784",
-    "wikidata_label": "Publisher’s Note",
-    "wikidata_desc": "scientific article published on 14 February 2017",
-    "confidence": 1.0
-  },
-  {
-    "local_uri": "http://example.org/edai/Org_Mit",
-    "local_label": "MIT",
-    "ner_type": "ORG",
-    "wikidata_qid": "Q334661",
-    "wikidata_label": "MIT License",
-    "wikidata_desc": "permissive free software license",
-    "confidence": 0.85
-  },
-  {
-    "local_uri": "http://example.org/edai/Org_TheUniversityOfPhoenix",
-    "local_label": "the University of Phoenix",
-    "ner_type": "ORG",
-    "wikidata_qid": "Q122652170",
-    "wikidata_label": "The University of Phoenix in America:The Innovative Model of Adult Higher Education Institutions",
-    "wikidata_desc": "scholarly article in Studies in Foreign Education, no. 7, 2009",
     "confidence": 1.0
   },
   {
@@ -414,15 +252,6 @@
     "confidence": 1.0
   },
   {
-    "local_uri": "http://example.org/edai/Loc_Uk",
-    "local_label": "UK",
-    "ner_type": "GPE",
-    "wikidata_qid": "Q8798",
-    "wikidata_label": "Ukrainian",
-    "wikidata_desc": "East Slavic language",
-    "confidence": 1.0
-  },
-  {
     "local_uri": "http://example.org/edai/Loc_Iran",
     "local_label": "Iran",
     "ner_type": "GPE",
@@ -430,15 +259,6 @@
     "wikidata_label": "Iran",
     "wikidata_desc": "country in Western Asia",
     "confidence": 1.0
-  },
-  {
-    "local_uri": "http://example.org/edai/Loc_Usa",
-    "local_label": "USA",
-    "ner_type": "GPE",
-    "wikidata_qid": "Q248713",
-    "wikidata_label": "USA Network",
-    "wikidata_desc": "American cable television channel",
-    "confidence": 0.85
   },
   {
     "local_uri": "http://example.org/edai/Loc_Eu",
@@ -457,15 +277,6 @@
     "wikidata_label": "Tehran",
     "wikidata_desc": "capital city of Iran",
     "confidence": 1.0
-  },
-  {
-    "local_uri": "http://example.org/edai/Loc_Esfahan",
-    "local_label": "Esfahan",
-    "ner_type": "GPE",
-    "wikidata_qid": "Q21475480",
-    "wikidata_label": "Esfahani",
-    "wikidata_desc": "family name",
-    "confidence": 0.7
   },
   {
     "local_uri": "http://example.org/edai/Loc_Ethiopia",
@@ -504,15 +315,6 @@
     "confidence": 1.0
   },
   {
-    "local_uri": "http://example.org/edai/Loc_Lousiana",
-    "local_label": "Lousiana",
-    "ner_type": "GPE",
-    "wikidata_qid": "Q117068168",
-    "wikidata_label": "Lousiana Oil Refining",
-    "wikidata_desc": "business",
-    "confidence": 1.0
-  },
-  {
     "local_uri": "http://example.org/edai/Loc_Ahvaz",
     "local_label": "Ahvaz",
     "ner_type": "GPE",
@@ -529,24 +331,6 @@
     "wikidata_label": "Louisiana",
     "wikidata_desc": "state of the United States of America",
     "confidence": 1.0
-  },
-  {
-    "local_uri": "http://example.org/edai/Loc_China",
-    "local_label": "China",
-    "ner_type": "GPE",
-    "wikidata_qid": "Q29520",
-    "wikidata_label": "China",
-    "wikidata_desc": "cultural region, ancient civilization, and nation in East Asia; mostly refers to the People's Republic of China in political situation and rarely refers to the Republic of China",
-    "confidence": 0.7
-  },
-  {
-    "local_uri": "http://example.org/edai/Loc_Tamilnadu",
-    "local_label": "Tamilnadu",
-    "ner_type": "GPE",
-    "wikidata_qid": "Q26294639",
-    "wikidata_label": "Tamilnaduibacter",
-    "wikidata_desc": "genus of Gammaproteobacteria",
-    "confidence": 0.85
   },
   {
     "local_uri": "http://example.org/edai/Loc_Germany",
@@ -637,5 +421,41 @@
     "wikidata_label": "Iraq",
     "wikidata_desc": "sovereign state in Western Asia",
     "confidence": 1.0
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_Uk",
+    "local_label": "UK",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q145",
+    "wikidata_label": "UK (corrected)",
+    "wikidata_desc": "East Slavic language",
+    "confidence": 0.95
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_Usa",
+    "local_label": "USA",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q30",
+    "wikidata_label": "USA (corrected)",
+    "wikidata_desc": "American cable television channel",
+    "confidence": 0.95
+  },
+  {
+    "local_uri": "http://example.org/edai/Org_Mit",
+    "local_label": "MIT",
+    "ner_type": "ORG",
+    "wikidata_qid": "Q49108",
+    "wikidata_label": "MIT (corrected)",
+    "wikidata_desc": "permissive free software license",
+    "confidence": 0.95
+  },
+  {
+    "local_uri": "http://example.org/edai/Loc_China",
+    "local_label": "China",
+    "ner_type": "GPE",
+    "wikidata_qid": "Q148",
+    "wikidata_label": "China (corrected)",
+    "wikidata_desc": "cultural region, ancient civilization, and nation in East Asia; mostly refers to the People's Republic of China in political situation and rarely refers to the Republic of China",
+    "confidence": 0.95
   }
 ]
